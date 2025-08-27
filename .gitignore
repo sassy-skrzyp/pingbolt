@@ -1,0 +1,31 @@
+# Chrome Extension Git Ignore
+
+# Package files
+package-lock.json
+node_modules/
+
+# Development files
+*.zip
+*.crx
+*.pem
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Audio and image assets (add actual files manually)
+# Note: Keeping audio and icon assets in repo as they're required for extension
+
+# Logs
+*.log

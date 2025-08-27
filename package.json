@@ -1,0 +1,33 @@
+{
+  "name": "pingbolt",
+  "version": "1.0.0",
+  "description": "Chrome extension to monitor bolt.new pages for task completion with audio feedback",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sassy-skrzyp/pingbolt.git"
+  },
+  "homepage": "https://github.com/sassy-skrzyp/pingbolt",
+  "bugs": {
+    "url": "https://github.com/sassy-skrzyp/pingbolt/issues"
+  },
+  "scripts": {
+    "build": "echo 'Chrome extension - no build step required'",
+    "package": "zip -r pingbolt.zip . -x '*.git*' 'node_modules/*' 'package-lock.json'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "bolt.new",
+    "monitoring",
+    "audio-feedback",
+    "productivity"
+  ],
+  "author": "sassy-skrzyp",
+  "license": "MIT",
+  "devDependencies": {},
+  "chrome_extension": {
+    "manifest_version": 3,
+    "target_browsers": ["chrome", "edge", "firefox"]
+  }
+}
