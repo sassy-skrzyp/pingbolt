@@ -1,4 +1,6 @@
-# Bolt Monitor Chrome Extension
+# PingBolt
+
+Chrome Extension for Bolt.new - get notified when Bolt cooked!
 
 A Chrome extension that monitors bolt.new pages for task completion status and provides customizable audio feedback to users.
 
